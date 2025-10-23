@@ -1,0 +1,36 @@
+div {
+  width: 400px;
+  height: 100px;
+  background-color: gray;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.big {
+  width: 400px;
+  height: 210px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear_left {
+  clear: left;
+}
+
+.clear_right {
+  clear: right;
+}
+
+.clear_both {
+  clear: both;
+}
