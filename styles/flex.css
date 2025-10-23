@@ -1,0 +1,24 @@
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block {
+  width: 400px;
+  height: 100px;
+  background-color: gray;
+  border: 1px solid black;
+  margin: 10px 10px;
+}
+
+.large {
+  height: 220px;
+}
+
+.row {
+  padding: 0 10px;
+  margin: 20px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  overflow: auto;
+}
