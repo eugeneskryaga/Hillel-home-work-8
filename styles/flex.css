@@ -8,7 +8,6 @@ header {
   height: 100px;
   background-color: gray;
   border: 1px solid black;
-  margin: 10px 10px;
 }
 
 .large {
@@ -16,9 +15,30 @@ header {
 }
 
 .row {
-  padding: 0 10px;
+  display: flex;
+  justify-content:space-between;
+  gap: 20px;
+  padding: 10px 20px;
   margin: 20px;
   background-color: lightgrey;
   border: 1px solid black;
-  overflow: auto;
+}
+
+.right, .left {
+  display: flex;
+  gap: 20px;
+}
+
+.fourth {
+  justify-content: flex-end;
+}
+
+.fifth {
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
